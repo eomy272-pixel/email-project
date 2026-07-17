@@ -7,3 +7,4 @@ if receiver:
 else:
     print("오류: RECEIVER_EMAIL이 비어있습니다!")
 print(f"DEBUG_END")
+
