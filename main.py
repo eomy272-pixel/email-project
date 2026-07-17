@@ -4,7 +4,7 @@ import os
 
 # 1. GitHub Secrets에서 정보 가져오기
 receiver = os.environ.get('RECEIVER_EMAIL')
-sender_email = "본인아이디@naver.com"  # 여기에 본인의 네이버 이메일을 입력하세요
+sender_email = "um0241@naver.com"  # 여기에 본인의 네이버 이메일을 입력하세요
 sender_pw = os.environ.get('NAVER_CLIENT_SECRET')
 
 # 2. 메일 내용 만들기
